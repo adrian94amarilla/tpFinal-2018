@@ -18,7 +18,9 @@ import py.edu.uca.lp3.amarilla.dominio.Charla;
 import py.edu.uca.lp3.amarilla.dominio.Evento;
 import py.edu.uca.lp3.amarilla.dominio.Persona;
 import py.edu.uca.lp3.amarilla.repositorio.CharlaRepositorio;
+import py.edu.uca.lp3.amarilla.repositorio.EventoRepositorio;
 import py.edu.uca.lp3.amarilla.repositorio.PersonaRepositorio;
+import py.edu.uca.lp3.amarilla.repositorio.PreguntaRepositorio;
 import py.edu.uca.lp3.amarilla.servicio.ServicioCharla;
 
 @RestController
@@ -32,9 +34,13 @@ public class CharlaControlador implements Serializable {
 
 
 	@Autowired
+	private EventoRepositorio eventoRepositorio;
+	@Autowired
 	private CharlaRepositorio charlaRepositorio;
 	@Autowired
 	private PersonaRepositorio personaRepositorio;
+	@Autowired
+	private PreguntaRepositorio preguntaRepositorio;
 	
 	
 	@Autowired

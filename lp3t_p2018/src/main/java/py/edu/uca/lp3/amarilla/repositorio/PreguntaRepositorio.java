@@ -9,8 +9,8 @@ import py.edu.uca.lp3.amarilla.dominio.Pregunta;
 
 @RepositoryRestResource(collectionResourceRel = "pregunta2", path = "pregunta2")
 
-public interface PreguntaRepositorio extends PagingAndSortingRepository<Pregunta, Integer> {
+public interface PreguntaRepositorio extends PagingAndSortingRepository<Pregunta, Long> {
 
-	ArrayList<Pregunta> findById(Integer identi);
+	ArrayList<Pregunta> findById(long id);
 	ArrayList<Pregunta> findAll();
 }

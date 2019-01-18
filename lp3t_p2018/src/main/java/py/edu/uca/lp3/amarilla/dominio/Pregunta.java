@@ -81,6 +81,12 @@ public class Pregunta implements Serializable{
 	public Pregunta(String pregunta) {
 		this.pregunta = pregunta;
 	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public Pregunta() {
 		super();
 	}

@@ -1,0 +1,812 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-01-18T22:54:36.113Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"created": 1542907272301,
+			"description": "",
+			"modified": 1542907272301,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_f11de7806608428c900afe2bfe0ff0e2",
+			"color": null,
+			"created": 1542907272347,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1542907272347,
+			"modified": 1542907272347,
+			"name": "New Environment",
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_b829806fb7844932a011fa4078c98d9a",
+			"cookies": [],
+			"created": 1542907272350,
+			"modified": 1542907272350,
+			"name": "Default Jar",
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_3fe7271c76924924a0bdf02736299c60",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"tituloEvento\":\"Eventatetitotu\",\n\t\"fecha\":\"99-01-2019\"\n}"
+			},
+			"created": 1547790313977,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ae927a9b140945e5b8a4e7a980753f35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547790313977,
+			"method": "POST",
+			"modified": 1547843176706,
+			"name": "CrearEvento",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/crearEvento",
+			"_type": "request"
+		},
+		{
+			"_id": "req_aeb8b5df20dd4e5c9a9a7619ae30a347",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547790414996,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4d8487d1a0084dc5bdea9582332f2ca1",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547790414996,
+			"method": "POST",
+			"modified": 1547843225379,
+			"name": "CrearCharla",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/charla/crearCharla/Tatetitotu/24:00hs",
+			"_type": "request"
+		},
+		{
+			"_id": "req_35516b66ff754e3485b22ec39fc402c7",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Amarilla\",\n\t\"nombre\":\"Adrian\",\n\t\"ci\":4477299,\n\t\"universidad\":\"Catolica\",\n\t\"facultad\":\"CYT\",\n\t\"matricula\":67170\n}"
+			},
+			"created": 1547790545309,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e7b2a8ebcc9b4900973751df2a21cef3",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547790545309,
+			"method": "POST",
+			"modified": 1547790669748,
+			"name": "AgregarAlumno",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarAlumno",
+			"_type": "request"
+		},
+		{
+			"_id": "req_964f63580f26467e80284d2fe522daa7",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547790687813,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3198e753ea5746818776428d85df2579",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547790687813,
+			"method": "POST",
+			"modified": 1547840767629,
+			"name": "AgregarExpositor",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/charla/agregarExpositor/Java/4477244",
+			"_type": "request"
+		},
+		{
+			"_id": "req_128b492084144f28a3b31bf060580c9d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Fulgencio\",\n\t\"nombre\":\"Yegros\",\n\t\"ci\":4477288,\n\t\"catedra\":\"LP3\",\n\t\"universidad\":\"UCA\",\n\t\"facultad\":\"CYT\"\n}"
+			},
+			"created": 1547832768316,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_424ca237242e4167b9701135d5ed79bf",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547790616561,
+			"method": "POST",
+			"modified": 1547833110416,
+			"name": "AgregarProfesor",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarProfesor",
+			"_type": "request"
+		},
+		{
+			"_id": "req_beb825c32af34a9fa58da469c073ba26",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Lopez\",\n\t\"nombre\":\"Roberto\",\n\t\"ci\":4477277,\n\t\"area\":\"Web\",\n\t\"listadeCharlas\":[],\n\t\"listadeEventos\":[]\n}"
+			},
+			"created": 1547833129066,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e2a9de996b8c4f07819a724bd93dbe91",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547833129066,
+			"method": "POST",
+			"modified": 1547834008706,
+			"name": "AgregarInvestigador",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarInvestigador",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3f3ea9715e8a47f09f9f6bc95a986455",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Penayo\",\n\t\"nombre\":\"Cesar\",\n\t\"ci\":4477266,\n\t\"origen\":\"Paraguay\"\n}"
+			},
+			"created": 1547834280161,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_f82e0c8cc0704fcd8e55084b632c3ab8",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547834280161,
+			"method": "POST",
+			"modified": 1547834342308,
+			"name": "AgregarInvitado",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarInvitado",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0dd195945b8b47318ad8d0fd729fbd4d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Suarez\",\n\t\"nombre\":\"Rigoberto\",\n\t\"ci\":4477233,\n\t\"titulo\":\"Ingeniero\",\n\t\"area\":\"Informatica\"\n}"
+			},
+			"created": 1547834448880,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_825348f5cd6444a38316bc386798a930",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547834448880,
+			"method": "POST",
+			"modified": 1547834511851,
+			"name": "AgregarProfesional",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarProfesional",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9aca285235b84b198e697e47d00e3c0d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"apellido\":\"Buchanan\",\n\t\"nombre\":\"Alejs\",\n\t\"ci\":4477322\n}"
+			},
+			"created": 1547834539808,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ed184ca300a246648887c3f26ed506ef",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547834539808,
+			"method": "POST",
+			"modified": 1547847464504,
+			"name": "AgregarPersona",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/agregarPersona",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e6029b7894d04c0c936d47f259ac1a52",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547834870673,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3c942205fb5745efa53ceb5ec3a2d0e5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547834870673,
+			"method": "POST",
+			"modified": 1547843236034,
+			"name": "AgregarCharla",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/agregarCharla/Eventatetitotu/Tatetitotu",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b49e024c5ea1499abe9173825107bf77",
+			"authentication": {},
+			"body": {},
+			"created": 1547835046000,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547835046000,
+			"method": "GET",
+			"modified": 1547835356058,
+			"name": "ListarCharlasLibres",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/charla/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4cdda764af9645069cf3cab1e8287610",
+			"authentication": {},
+			"body": {},
+			"created": 1547835369552,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547835369552,
+			"method": "GET",
+			"modified": 1547835611612,
+			"name": "ListarCharlasdeunEvento",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/listar/Eventaso",
+			"_type": "request"
+		},
+		{
+			"_id": "req_8ea69a5445404b6798f19b68ee9b201a",
+			"authentication": {},
+			"body": {},
+			"created": 1547835880224,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547835880224,
+			"method": "GET",
+			"modified": 1547835899119,
+			"name": "ListarHorarios",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/listarHorario/Eventaso",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7daaa4fd6732432dba3766b8817f5627",
+			"authentication": {},
+			"body": {},
+			"created": 1547837426437,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547837426437,
+			"method": "GET",
+			"modified": 1547849527125,
+			"name": "ListarExpositoresCharla",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/charla/listarExpositores/Rest",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2cf944e9597348dfae65915ccfd9ec29",
+			"authentication": {},
+			"body": {},
+			"created": 1547840270002,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547840270002,
+			"method": "GET",
+			"modified": 1547841119435,
+			"name": "tipoExpositor",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/charla/tipoExpositor/Java",
+			"_type": "request"
+		},
+		{
+			"_id": "req_03332c7584ac4347be3c3aa7a0187e94",
+			"authentication": {},
+			"body": {},
+			"created": 1547840744785,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547840744785,
+			"method": "GET",
+			"modified": 1547840752896,
+			"name": "listarPersonas",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d6349f5a7323414f9208b18a13e6e228",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"tituloEvento\":\"Eventote\",\n\t\"fecha\":\"19-01-2019\",\n\t\"listadeParticipantes\":[],\n\t\"listadeCharlas\":[],\n\t\"listadeOrganizadores\":[],\n\t\"formadePago\":\"Efectivo\",\n\t\"costo\":25000,\n\t\"listadePagoEfectivo\":[],\n\t\"listadePagoTarjeta\":[]\n}"
+			},
+			"created": 1547842164180,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ddd23eefaafc4579b344c66b21703116",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547842164180,
+			"method": "POST",
+			"modified": 1547842257198,
+			"name": "crearEventoPago",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/crearEventoPago",
+			"_type": "request"
+		},
+		{
+			"_id": "req_63224b06e72c4c7e836b0e47c5dc7e13",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547846879221,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6148d12ec19340ac9a69a4f691a75556",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547846879221,
+			"method": "POST",
+			"modified": 1547847003946,
+			"name": "IncribirEventoPre",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/agregarParticipantePre/Tate/4477344",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bab6d26118e4484cb70d42dceebb4d86",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"tituloEvento\":\"Tate\",\n\t\"fecha\":\"-01-2019\"\n}"
+			},
+			"created": 1547846920366,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b6b53716bf8a48bab0732587ae6899cd",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547846920366,
+			"method": "POST",
+			"modified": 1547846964450,
+			"name": "CrearEventoPre",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/crearEventoPreInscripcion",
+			"_type": "request"
+		},
+		{
+			"_id": "req_78d644d07bd24604a6978dd070b35c05",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547847484669,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_890f6b1914af48d1995519490fb81691",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547847484669,
+			"method": "POST",
+			"modified": 1547847687324,
+			"name": "InscribirEventoPago",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/agregarParticipantePago/Ruta/4477311/efectivo",
+			"_type": "request"
+		},
+		{
+			"_id": "req_15f4c776397342e79f3eee52af7313c8",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"tituloEvento\":\"Tuta\",\n\t\"fecha\":\"99999-01-2019\",\n\t\"formadePago\":\"tarjeta\",\n\t\"costo\":\"\"\n}"
+			},
+			"created": 1547847526749,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d854db4bca684d9ca96b2855e97b3770",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547847526749,
+			"method": "POST",
+			"modified": 1547847676069,
+			"name": "CrearEventoPago",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/crearEventoPago",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4c04380bdd114cf5be6189e9ba7f2fc6",
+			"authentication": {},
+			"body": {},
+			"created": 1547848192939,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547848192939,
+			"method": "GET",
+			"modified": 1547848683275,
+			"name": "DetalleInvestigador",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/detalleInvestigador/4477277",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a81aaf1fdf6f492f8548ab14f1b9695c",
+			"authentication": {},
+			"body": {},
+			"created": 1547848741060,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547848741060,
+			"method": "GET",
+			"modified": 1547848753883,
+			"name": "DetalleAlumno",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/persona/detalleAlumno/4477299",
+			"_type": "request"
+		},
+		{
+			"_id": "req_16871c21031f40e6b608120c1f1defe0",
+			"authentication": {},
+			"body": {},
+			"created": 1547849295530,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547849295530,
+			"method": "GET",
+			"modified": 1547849559246,
+			"name": "ListarExpositoresEvento",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/evento/listarExpositores/Eventaso",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ebeb3f68d8a7451e8982bece9c89c957",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"pregunta\":\"esdasdasda\",\n\t\"fecha\":\"hola\"\n}"
+			},
+			"created": 1547849637113,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c4ddace76d65403491a3611836df1b2d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547849637113,
+			"method": "POST",
+			"modified": 1547852022393,
+			"name": "CrearPregunta",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/pregunta/crearPregunta",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5ef36404313741eb871855b9b79f3a7a",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1547851276822,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d420c2b68af449a9a91dc159c99e7ba4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547851276822,
+			"method": "POST",
+			"modified": 1547851359957,
+			"name": "AgregarPreguntaCharla",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/pregunta/agregarPregunta/Tatetitotu/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_54d7aa697135499f96780d7e71aa9eee",
+			"authentication": {},
+			"body": {},
+			"created": 1547851376182,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547851376182,
+			"method": "GET",
+			"modified": 1547851561899,
+			"name": "ListarPreguntas",
+			"parameters": [],
+			"parentId": "wrk_9d7a921423ce4aaf9a3e4f6e2806e816",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/preguntas/listarPreguntas/Tatetitotu",
+			"_type": "request"
+		}
+	]
+}

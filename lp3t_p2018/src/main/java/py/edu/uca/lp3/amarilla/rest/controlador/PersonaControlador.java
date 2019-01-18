@@ -16,14 +16,23 @@ import py.edu.uca.lp3.amarilla.dominio.Invitado;
 import py.edu.uca.lp3.amarilla.dominio.Profesional;
 import py.edu.uca.lp3.amarilla.dominio.Profesor;
 import py.edu.uca.lp3.amarilla.dominio.Persona;
+import py.edu.uca.lp3.amarilla.repositorio.CharlaRepositorio;
+import py.edu.uca.lp3.amarilla.repositorio.EventoRepositorio;
 import py.edu.uca.lp3.amarilla.repositorio.PersonaRepositorio;
+import py.edu.uca.lp3.amarilla.repositorio.PreguntaRepositorio;
 
 @RestController
 @RequestMapping("/persona")
 public class PersonaControlador {
 
 	@Autowired
+	private EventoRepositorio eventoRepositorio;
+	@Autowired
+	private CharlaRepositorio charlaRepositorio;
+	@Autowired
 	private PersonaRepositorio personaRepositorio;
+	@Autowired
+	private PreguntaRepositorio preguntaRepositorio;
 	
 	
 	@RequestMapping(value = "/agregarPersona", method = RequestMethod.POST)

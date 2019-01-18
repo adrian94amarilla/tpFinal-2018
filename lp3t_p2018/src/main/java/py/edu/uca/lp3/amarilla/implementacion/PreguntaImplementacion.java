@@ -1,9 +1,11 @@
 package py.edu.uca.lp3.amarilla.implementacion;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import py.edu.uca.lp3.amarilla.dominio.Charla;
 import py.edu.uca.lp3.amarilla.dominio.Pregunta;
 import py.edu.uca.lp3.amarilla.servicio.ServicioPregunta;
 
@@ -54,6 +56,11 @@ public class PreguntaImplementacion implements ServicioPregunta {
 	public Pregunta crearPregunta(String pregunta) {
 		Pregunta preguntaAux = new Pregunta(pregunta);
 		return preguntaAux;
+	}
+
+	@Override
+	public List<Pregunta> listarPregunta(Charla charla) {
+		return charla.getListadePreguntas();
 	}
 
 	

@@ -2,6 +2,7 @@ package py.edu.uca.lp3.amarilla.servicio;
 
 import java.util.List;
 
+import py.edu.uca.lp3.amarilla.dominio.Charla;
 import py.edu.uca.lp3.amarilla.dominio.Pregunta;
 
 public interface ServicioPregunta {
@@ -20,5 +21,7 @@ public interface ServicioPregunta {
 	public Pregunta eliminarPregunta (Pregunta pregunta);
 	//Esta funcion crea una pregunta
 	public Pregunta crearPregunta (String pregunta);
+	//Esta funcion lista las preguntas de una charla
+	public List<Pregunta> listarPregunta (Charla charla);
 	
 }
